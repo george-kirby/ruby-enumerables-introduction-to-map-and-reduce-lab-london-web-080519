@@ -58,15 +58,13 @@ def reduce_to_total(source_array, starting_point = 0)
     end
 
   
-  #put this under an if statement, to only apply if no starting_point given
+  #put this under an else statement, to only apply if no starting_point given
   else
     for i in source_array
       total += i
     end
     
   end
-  
-  #if starting_point given, total from there
   
   total
 end
