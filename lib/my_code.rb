@@ -66,7 +66,7 @@ def reduce_to_total(source_array, starting_point = 0)
 end
 
 def reduce_to_all_true(source_array)
-  are_all_true = TRUE
+  are_all_true = true
   
   for i in source_array
     if i == false
