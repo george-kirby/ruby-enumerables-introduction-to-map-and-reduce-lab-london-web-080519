@@ -49,8 +49,11 @@ def reduce_to_total(source_array, starting_point = 0)
   total = 0
   
   if starting_point != 0
-    
-  
+  #loop until counter is too big
+    active_index = starting_point
+    while source_array[active_index] do
+      total +=
+    end
   
   #put this under an if statement, to only apply if no starting_point given
   else
