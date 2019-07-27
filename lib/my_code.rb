@@ -83,12 +83,12 @@ def reduce_to_any_true(source_array)
   
   for i in source_array
     if i == true
-      are_all_true = false
+      are_any_true = true
     end  
       
   end
   
-  are_all_true
+  are_any_true
 end
 
 
